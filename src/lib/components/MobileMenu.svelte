@@ -2,15 +2,7 @@
     import {page} from "$app/stores";
  export let data;
  export let hide;
-    const navigation = [
-        { name: 'Home', href: '/' },
-        { name: 'Wie ben ik', href: '/wie_ben_ik' },
-        { name: 'Duurzaamheid', href: '/duurzaamheid' },
-        { name: 'School At Sea', href: '/school_at_sea' },
-        { name: 'Sponsoring', href: '/sponsoring' },
-        { name: 'Contact', href: '/contact_formulieren' },
-
-    ]
+   export let navigation;
 
 </script>
 
@@ -23,6 +15,16 @@
                     </li>
 
                 {/each}
+                {#if data.user?.role === 'admin'}
+                    <li>
+                        <a href="/admin" class="hover:text-jip-400 text-jip-800 text-sm transition duration-700 hover:duration-500">Admin</a>
+                    </li>
+                {/if}
+                {#if data.user}
+                        <form method="POST" >
+                        <button class="hover:text-jip-400 text-jip-800 text-sm transition duration-700 hover:duration-500" formaction="/logout">Uitloggen</button>
+                        </form>
+                        {/if}
             </ul>
 
         </div>

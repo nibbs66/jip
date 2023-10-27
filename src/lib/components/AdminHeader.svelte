@@ -1,14 +1,17 @@
 <script lang="ts">
     import {page} from "$app/stores";
     import school from '$lib/img/cropped-School_at_Sea_Logo_RGB_BLUE.png'
+    import AdminMobile from "$lib/components/AdminMobile.svelte";
+    let show_menu = false;
     export let data;
     const navigation = [
         { name: 'Home', href: '/' },
         { name: 'Admin', href: '/admin' },
         { name: 'Files', href: '/admin/files' },
-
-
     ]
+    function hide () {
+        show_menu = !show_menu;
+    }
 </script>
 
 <div class="flex items-center justify-between px-10 py-2 bg-jip-700/60 shadow-2xl rounded-full text-jip-50">
@@ -34,10 +37,22 @@
         <a href="/register">register</a>
     </span>
         {:else}
-            <form method="POST" >
+            <form class="hidden sm:flex" method="POST" >
                 <button class="text-sm border px-3 py-2 rounded-md hover:bg-jip-300 hover:text-jip-700 transition duration-700 hover:duration-500" formaction="/logout">Uitloggen</button>
             </form>
         {/if}
+        <div>
+            <button on:click={()=>show_menu = !show_menu} class="sm:hidden text-white">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                          d="M4 6h16M4 12h16M4 18h16"/>
+                </svg>
 
+            </button>
+        {#if show_menu}
+            <AdminMobile {hide} {data} {navigation} />
+            {/if}
+        </div>
     </div>
 </div>

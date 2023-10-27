@@ -59,7 +59,7 @@ function hide () {
 
             </button>
             {#if show_menu}
-                <MobileMenu hide={hide} data={data}/>
+                <MobileMenu hide={hide} data={data} {navigation}/>
             {/if}
         </div>
     </div>
