@@ -13,7 +13,7 @@
                 </div>
                 <div class="relative px-6 py-16 sm:py-24 lg:px-8 lg:py-32">
                     <span class="text-center text-4xl font-bold tracking-wider sm:text-5xl lg:text-8xl">
-                        <span class="block text-jip-100"> Sponsoren</span>
+                        <span class="block text-jip-100"> Sponsoring</span>
 
                     </span>
 

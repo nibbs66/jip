@@ -31,7 +31,7 @@
        <div class=" py-10 ">
 
            <C2 data={data.data} />
-           <h2 class="text-center pt-5 text-jip-800 lg:text-2xl font-bold lg:font-normal">Dank je wel te mijn sponsoren!!</h2>
+           <h2 class="text-center pt-5 text-jip-800 lg:text-2xl font-bold lg:font-normal">Dank je wel naar mijn sponsoren!!</h2>
        </div>
     </div>
 
