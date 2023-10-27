@@ -143,7 +143,7 @@ function handleImgClick(data) {
                         </p>
                     </blockquote>
                     <figcaption class="mt-8 text-base">
-                        <div class="font-semibold text-white"> Jip van den Broek</div>
+
 
                     </figcaption>
                 </figure>
