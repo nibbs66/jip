@@ -1,0 +1,48 @@
+{
+	"name": "jip",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
+		"test": "playwright test",
+		"lint": "prettier --plugin-search-dir . --check .",
+		"format": "prettier --plugin-search-dir . --write ."
+	},
+	"devDependencies": {
+		"@playwright/test": "^1.28.1",
+		"@prisma/client": "^5.4.2",
+		"@skeletonlabs/skeleton": "^2.3.0",
+		"@skeletonlabs/tw-plugin": "^0.2.2",
+		"@splidejs/svelte-splide": "^0.2.9",
+		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/kit": "^1.20.4",
+		"autoprefixer": "^10.4.16",
+		"daisyui": "^3.9.3",
+		"nodemailer": "^6.9.6",
+		"postcss": "^8.4.31",
+		"prettier": "^2.8.0",
+		"prettier-plugin-svelte": "^2.10.1",
+		"prisma": "^5.4.2",
+		"svelte": "^4.0.5",
+		"svelte-check": "^3.4.3",
+		"tailwindcss": "^3.3.3",
+		"typescript": "^5.0.0",
+		"vite": "^4.4.2"
+	},
+	"type": "module",
+	"dependencies": {
+		"@lucia-auth/adapter-prisma": "^3.0.2",
+		"@splidejs/splide-extension-auto-scroll": "^0.5.3",
+		"appwrite": "^13.0.0",
+		"date-fns": "^2.30.0",
+		"firebase": "^10.5.0",
+		"lucia": "^2.7.1",
+		"mongodb": "^6.2.0",
+		"preline": "^1.9.0",
+		"svelte-hero-icons": "^5.0.0"
+	}
+}
