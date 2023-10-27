@@ -30,7 +30,7 @@
             <div class="pb-24 pt-16 sm:pb-32 sm:pt-24 lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:pt-32">
                 <div class="px-6 lg:px-8">
                     <div class="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
-                        <h2 class="text-3xl font-bold tracking-tight text-jip-800">Contact Formulieren</h2>
+                        <h2 class="text-3xl font-bold tracking-tight text-jip-800">Contact Formulier</h2>
 
                         <form  method="POST" class="mt-16">
                             <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
