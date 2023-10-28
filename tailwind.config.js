@@ -15,6 +15,7 @@ export default {
     ],
 
     theme: {
+
         extend: {
             animation: {
                 'infinite-scroll': 'infinite-scroll 45s linear infinite',
@@ -49,9 +50,11 @@ export default {
             }
         }
     },
+
     plugins: [
         require('preline/plugin'),
         require("daisyui"),
+
         skeleton
     ]
 };
