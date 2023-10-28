@@ -22,7 +22,26 @@
         </div>
     </Modal>
 
+    <div class={`grid grid-cols-1 sm:grid-cols-3 gap-10 h-1/2`}>
+        <button on:click={() => handleImgClick(JipBartBoat)}
+                class=" md:row-span-2 relative border-[16px] border-white rounded-lg overflow-hidden">
+            <img
+                    class="hover:scale-125 h-full transition object-cover duration-500 cursor-pointer"
+                    src={JipBartBoat}
+                    alt="sailboat"
+            >
+        </button>
+        <button on:click={() => handleImgClick(boogieboard)} class="md:col-span-2 border-[16px] border-white rounded-lg overflow-hidden ">
+            <img  class="hover:scale-125 h-full transition object-cover duration-500 cursor-pointer" src={boogieboard} alt="">
+        </button>
+        <button on:click={() => handleImgClick(sailing)} class="border-[16px] border-white rounded-lg overflow-hidden ">
+            <img  class="hover:scale-125 h-full transition object-cover duration-500 cursor-pointer" src={sailing} alt="">
+        </button>
+        <button on:click={() => handleImgClick(JipBeau)} class=" border-[16px] border-white rounded-lg overflow-hidden ">
+            <img  class="hover:scale-125 h-full transition object-cover duration-500 cursor-pointer" src={JipBeau} alt="">
+        </button>
 
+    </div>
     <div class="relative z-10 my-28  bg-jip-700 pb-20 rounded-2xl shadow-2xl sm:pb-24 xl:pb-0">
         <div class="absolute inset-0 overflow-hidden" aria-hidden="true">
             <div class="absolute left-[calc(50%-19rem)] top-[calc(50%-36rem)] transform-gpu blur-3xl">
@@ -73,32 +92,6 @@
                 </figure>
             </div>
         </div>
-    </div>
-
-
-
-
-
-
-    <div class={`grid grid-cols-1 sm:grid-cols-3 gap-10 h-1/2`}>
-        <button on:click={() => handleImgClick(JipBartBoat)}
-                class=" md:row-span-2 relative border-[16px] border-white rounded-lg overflow-hidden">
-            <img
-                    class="hover:scale-125 h-full transition object-cover duration-500 cursor-pointer"
-                    src={JipBartBoat}
-                    alt="sailboat"
-            >
-        </button>
-        <button on:click={() => handleImgClick(boogieboard)} class="md:col-span-2 border-[16px] border-white rounded-lg overflow-hidden ">
-            <img  class="hover:scale-125 h-full transition object-cover duration-500 cursor-pointer" src={boogieboard} alt="">
-        </button>
-        <button on:click={() => handleImgClick(sailing)} class="border-[16px] border-white rounded-lg overflow-hidden ">
-            <img  class="hover:scale-125 h-full transition object-cover duration-500 cursor-pointer" src={sailing} alt="">
-        </button>
-        <button on:click={() => handleImgClick(JipBeau)} class=" border-[16px] border-white rounded-lg overflow-hidden ">
-            <img  class="hover:scale-125 h-full transition object-cover duration-500 cursor-pointer" src={JipBeau} alt="">
-        </button>
-
     </div>
     <div class="relative z-10 mt-28  bg-jip-700 pb-20 rounded-2xl  sm:pb-24 xl:pb-0">
         <div class="absolute inset-0 overflow-hidden" aria-hidden="true">
