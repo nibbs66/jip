@@ -1,5 +1,5 @@
 <script>
-import kids from "$lib/img/kidsatboat.jpeg";
+import ropes from "$lib/img/ropes.png";
 </script>
 
 <div>
@@ -8,7 +8,7 @@ import kids from "$lib/img/kidsatboat.jpeg";
         <div class="mx-auto  sm:px-6 lg:px-8">
             <div class="relative shadow-2xl shadow-white/50 sm:overflow-hidden rounded-md sm:rounded-2xl">
                 <div class="absolute inset-0">
-                    <img src={kids} alt="kids" class="h-full w-full object-cover"/>
+                    <img src={ropes} alt="rope" class="h-full w-full object-cover"/>
                     <div class="absolute inset-0 bg-jip-500 mix-blend-multiply " />
                 </div>
                 <div class="relative px-6 py-16 sm:py-24 lg:px-8 lg:py-32">
