@@ -11,7 +11,7 @@
 import Loader from '$lib/components/Loader.svelte'
     let now = new Date();
     let endOfToday = endOfDay(now);
-    let end = new Date('2024-10-01T00:00:00')
+    let end = new Date('2024-10-13T00:00:00')
     let countdown_complete = false
  let timer_duration;
     let other = {}
