@@ -23,8 +23,9 @@
 
     async function handleSubmit(event) {
 
-        console.log(upload)
+
         const data = new FormData(event.currentTarget);
+
  const promise =  storage.createFile(PUBLIC_BUCKET_ID, ID.unique(), upload );
     promise.then(function (result) {
          image = storage.getFilePreview(PUBLIC_BUCKET_ID, result.$id)
@@ -49,6 +50,8 @@
     }, function (error) {
         console.log(error);
     });
+
+
 
 
 

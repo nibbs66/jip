@@ -12,7 +12,7 @@
 <Sponsoring />
     <div class="bg-jip-400  py-20 rounded-2xl ">
         <div class="grid md:grid-cols-2 place-items-center px-10 gap-10 sm:text-xl text-jip-900 ">
-        <p class="leading-10">Meereizen met School at Sea komt natuurlijk met een prijskaartje, maar dit is het meer dan waard. In ruil daarvoor doe ik veel ervaring op, krijg ik bijzondere scholing en ontwikkel ik mezelf enorm op persoonlijke gebied.
+        <p class="leading-10">Meereizen met School at Sea komt natuurlijk met een prijskaartje, maar dit is het meer dan waard. In ruil daarvoor doe ik veel ervaring op, krijg ik bijzondere scholing en ontwikkel ik mezelf enorm op persoonlijk gebied.
         </p>
           <div class="row-span-2 rounded-xl shadow-2xl p-5 bg-[ghostwhite]">
               <GoFundMe class="text-green-600 hover:text-green-700 transition duration-700 hover:duration-500 h-44 lg:h-72 w-auto" />

@@ -26,11 +26,11 @@ import WiebenIk from "$lib/components/HeroImages/WiebenIk.svelte";
                     Waarom wil ik mee met School at Sea?
 
                 </h2>
-                <p>Ik heb er altijd al van gedroomd om op wereldreis te gaan. School at Sea maakt dit mogelijk. Ik houd er enorm van om andere culturen te leren kennen. Dit komt mede doordat ik in het buitenland opgegroeid ben. Ik vond het superleuk om vrienden te hebben die een andere levenswijze hebben. Met School at Sea kom je in aanraking met allerlei verschillende culturen uit midden Amerika.
+                <p>Ik heb er altijd al van gedroomd om op wereldreis te gaan. School at Sea maakt dit mogelijk. Ik houd er enorm van om andere culturen te leren kennen. Dit komt mede doordat ik in het buitenland opgegroeid ben. Ik vond het superleuk om vrienden te hebben die een andere levenswijze hebben. Met School at Sea kom je in aanraking met allerlei verschillende culturen uit Midden-Amerika.
                 </p>
-                <p>Ook houd ik van uitdagingen, het beste uit mijzelf halen en ontwikkelen, dat geeft me een voldaan gevoel.
+                <p>Ook houd ik van uitdagingen, het beste uit mijzelf halen en mijzelf ontwikkelen, dat geeft me een voldaan gevoel.
                 </p>
-                <p>Het mooiste van dit avontuur is dat het een geweldige ervaring wordt om een leven lang op terug te kijken. </p>
+                <p>Het mooie van dit avontuur is dat het een geweldige ervaring wordt om een leven lang op terug te kijken. </p>
             </div>
             <div>
                 <img src={windsurf} alt="in sailboat" class="lg:-mt-[20rem] xl:-mt-[36rem] aspect-[2/3] rounded-xl bg-gray-900/5 object-cover shadow-lg ">

@@ -131,12 +131,12 @@
                     </svg>
                     <blockquote class="text-xl text-center md:text-start font-semibold leading-8 text-white sm:text-2xl sm:leading-9">
                         <p>
-                            “De beste zes maanden van mijn leven, een reis om nooit te vergeten. Ik heb eindelijk het gevoel dat ik iets doe met mijn leven.”
+                            “Het worden de leerzaamste zes maanden van mijn leven, een reis om nooit te vergeten.”
 
                         </p>
                     </blockquote>
                     <figcaption class="mt-8 text-base">
-
+                      <div class="font-semibold text-white">Jip van den Broek</div>
 
                     </figcaption>
                 </figure>
