@@ -3,7 +3,7 @@
     import Modal from '$lib/components/Modal.svelte'
     export let form;
 
-    let showModal = !!form?.success || false;
+    let showModal = !!form?.success || true;
     let show_button = true;
 
 </script>
@@ -11,8 +11,8 @@
 <div class="space-y-4  md:space-y-12 ">
     <Modal bind:showModal bind:show_button>
         <div class="py-5">
-            <p class="text-green-600 text-4xl text-center ">Succes!!</p>
-            <p class="text-green-600 text-4xl text-center ">{form?.success}</p>
+            <p class="text-jip-800 text-2xl text-center ">Succes!!</p>
+            <p class="text-jip-800 text-2xl text-center ">{form?.success}</p>
 
         </div>
     </Modal>
@@ -43,7 +43,7 @@
                                         <input
                                                 id="naam"
                                                 name="naam"
-                                                type="naam"
+                                                type="text"
                                                 autoComplete="subject"
                                                 class="block w-full rounded-md border-0 px-3.5 py-2 text-jip-800 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                                         />
@@ -81,7 +81,7 @@
                             rows={4}
                             aria-describedby="body"
                             class="block w-full rounded-md border-0 px-3.5 py-2 text-jip-800 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-                            defaultValue={''}
+
                     />
                                     </div>
                                 </div>

@@ -18,23 +18,30 @@
             duration-500  [&:not([open])]:pointer-events-none w-1/2  rounded-xl px-6 py-5 sm:max-w-xl lg:max-w-4xl shadow-2xl
             backdrop:bg-blue-500/50 dark:shadow-white/50 shadow-blue-500  bg-gray-200`}
 >
-<button on:click={() => dialog.close()} >
-    <Icon  src="{XCircle}" class="text-gray-400 h-7 w-7 absolute right-0 top-0.5 cursor-pointer"/>
+  <button  on:click={() =>{
+            showModal = false;
+            dialog.close();
 
-</button>
+ }} class="group absolute right-2 top-2 flex cursor-pointer items-center text-nether-700 space-x-1">
+    <span class="text-sm">Sluiten</span>
+    <Icon  src="{XCircle}" class="  w-6  cursor-pointer"/>
+
+  </button>
     <!-- svelte-ignore a11y-no-static-element-interactions -->
     <div on:click|stopPropagation >
- <div class={`mt-1 text-center flex justify-center  `}>
+ <div class={`mt-1 text-center flex flex-col justify-center  `}>
 
      <slot/>
 
      <!-- svelte-ignore a11y-autofocus -->
-     <button class={`${ show_button ? 'inline-flex ' : 'hidden' } w-full justify-center rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600`}
-             autofocus
-             on:click={() => dialog.close()}
-     >Close
+    <div >
+      <button class={`${ show_button ? 'inline-flex ' : 'hidden' } w-1/4 justify-center rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600`}
+              autofocus
+              on:click={() => dialog.close()}
+      >Sluiten
 
-     </button>
+      </button>
+    </div>
  </div>
     </div>
 

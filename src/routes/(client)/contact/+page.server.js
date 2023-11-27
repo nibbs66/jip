@@ -4,17 +4,15 @@ import transporter from "$lib/server/email.js";
 export const actions = {
     default: async ({ request }) => {
         try {
-            const formData = await request.formData();
-            const email = formData.get("email");
-            const naam =formData.get("naam")
-            const body = formData.get("body");
-                console.log(email)
-            let html = `<h2>From: ${naam}</h2><h3>${email}</h3><pre>${body}</pre>`;
+            const { naam, email, body } = Object.fromEntries(await request.formData());
 
+
+            let html = `<h2>From: ${naam}</h2><h3>${email}</h3><pre>${body}</pre>`;
+          console.log(naam);
            const message = {
                 from: email,
                 to: GOOGLE_EMAIL,
-                bcc: "jipvandenbroek08@gmail.com",
+                bcc: "chrismcnabb6691@gmail.com",
                 subject: 'Nieuw bericht',
                 text: body,
                 html: html,
@@ -40,9 +38,13 @@ export const actions = {
             };
 
 
+
+
         } catch (error) {
             console.error(error);
         }
+
+
 
 
     }

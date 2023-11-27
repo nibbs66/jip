@@ -23,7 +23,7 @@
                 class="text-jip-50 hover:text-jip-700 transition duration-700 hover:duration-500" href="https://www.gofundme.com/f/jip-at-sea-x-the-ocean-cleanup">GoFundMe</a>  pagina bekijken voor particuliere sponsoring.
         </p>
         <p class="leading-10">Ben je geïnteresseerd om officiële sponsor te worden? Dan bespreek ik graag de mogelijkheden! Je kunt met mij contact opnemen via e-mail of via het
-            <a   class="text-jip-50 hover:text-jip-700 transition duration-700 hover:duration-500" href="/contact_formulieren">contactformulier.</a>
+            <a   class="text-jip-50 hover:text-jip-700 transition duration-700 hover:duration-500" href="/contact">contactformulier.</a>
         </p>
 
 
