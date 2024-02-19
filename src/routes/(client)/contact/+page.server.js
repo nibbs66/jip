@@ -12,7 +12,7 @@ export const actions = {
            const message = {
                 from: email,
                 to: GOOGLE_EMAIL,
-                bcc: "chrismcnabb6691@gmail.com",
+                bcc: "jipvandenbroek08@gmail.com",
                 subject: 'Nieuw bericht',
                 text: body,
                 html: html,

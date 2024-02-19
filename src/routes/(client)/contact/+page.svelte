@@ -3,7 +3,7 @@
     import Modal from '$lib/components/Modal.svelte'
     export let form;
 
-    let showModal = !!form?.success || true;
+    let showModal = !!form?.success || false;
     let show_button = true;
 
 </script>
